@@ -1,0 +1,46 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: cornflowerblue;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+
+
+  }
+#title{
+padding-top: 30px;
+font-size: 40px;
+  }
+.passwd{
+  width: 400px;  
+  margin: auto;
+
+}
+
+.user{
+    width: 400px; 
+    margin: auto;
+    
+}
+
+#loginbutton{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: auto;
+    background-color: darkslateblue;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-block: 4px;
+}
+#resultado{
+  margin-top: 10px;
+font-size: 20px;  
+font-weight: bold;
+
+}

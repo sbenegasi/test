@@ -1,0 +1,30 @@
+
+<!-- <router-outlet></router-outlet> -->
+
+<h2 id="title">Account Login</h2>
+<br>
+
+<form  id="formLogin">
+    <!-- action="/home" -->
+
+    <mat-form-field appearance="fill" class="user" required>
+        <mat-label>User</mat-label>
+        <mat-icon matSuffix>person</mat-icon>
+        <input matInput id="user" #user> 
+        <!-- [(ngModel)]="user" -->
+
+    </mat-form-field>
+    <br>
+
+    <mat-form-field appearance="fill" class="passwd">
+        <mat-label>Password</mat-label>
+        <mat-icon matSuffix>lock</mat-icon>
+        <input matInput type="password" id="passwd" required >
+    </mat-form-field>
+</form>
+
+
+<button mat-flat-button  color="primary"  id="loginbutton" (click)="actionlogin()" >Login</button>
+<!-- form="formLogin" type="submit"-->
+
+<p id="resultado"></p>
