@@ -1,5 +1,5 @@
 
-<img src="windows-xp-logo.png" alt="imagenxp" width="500" height="600">
+<img src="windows-xp-logo.png" >
 # PrimerProyecto
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
